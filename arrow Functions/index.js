@@ -7,7 +7,7 @@ console.log("Fda")
 //     console.log(para)
 // }
 
-//hoisting  
+//hoisting not possible  
 const add = (...name)=>{
     console.log(name)
 }
@@ -15,7 +15,7 @@ add(1,2,3,4,5,6,78,9)
 
 
 
-// this keyword
+// this keyword reffer to global object
 const obj = {
     value : 456,
     show: ()=>{
